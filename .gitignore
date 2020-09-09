@@ -1,0 +1,15 @@
+*.user
+*.autosave
+*.orig
+*.qmake.stash
+*.Debug
+*.Release
+*debug/
+*Makefile
+*.main.cpp.swp
+*main_BACKUP_1023.cpp
+*main_BASE_1023.cpp
+*main_LOCAL_1023.cpp
+*main_REMOTE_1023.cpp
+
+

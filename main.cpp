@@ -12,6 +12,7 @@ int main(int argc, char *argv[])
     Duck *d2 = new RedHeadDuck();
     d2->display();
     d2->quack();
+    d2->swim();
 
     return a.exec();
 }

@@ -14,7 +14,14 @@ SOURCES += main.cpp \
     mallardduck.cpp \
     redheadduck.cpp \
     rubberduck.cpp \
-    decoyduck.cpp
+    decoyduck.cpp \
+    flybehavior.cpp \
+    flywithwings.cpp \
+    flynoway.cpp \
+    quackbehavior.cpp \
+    quack.cpp \
+    mutequack.cpp \
+    squeak.cpp
 
 # The following define makes your compiler emit warnings if you use
 # any feature of Qt which as been marked deprecated (the exact warnings
@@ -32,4 +39,11 @@ HEADERS += \
     mallardduck.h \
     redheadduck.h \
     rubberduck.h \
-    decoyduck.h
+    decoyduck.h \
+    flybehavior.h \
+    flywithwings.h \
+    flynoway.h \
+    quackbehavior.h \
+    quack.h \
+    mutequack.h \
+    squeak.h

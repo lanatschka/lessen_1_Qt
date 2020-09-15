@@ -4,9 +4,13 @@ Duck::Duck()
 {
 
 }
-void Duck::quack(){
-    cout <<"kray - kray" << endl;
+void Duck::performFly(){
+    flyBehavior->fly();
+}
+
+void Duck::performQuack(){
+    quackBehavior->quack();
 }
 void Duck::swim(){
-    cout <<"bul - bul" << endl;
+    cout <<"All ducks float, even decoys!" << endl;
 }

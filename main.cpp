@@ -4,6 +4,7 @@
 #include "redheadduck.h"
 #include "rubberduck.h"
 #include "decoyduck.h"
+#include "modelduck.h"
 int main(int argc, char *argv[])
 {
     QCoreApplication a(argc, argv);
@@ -39,5 +40,9 @@ int main(int argc, char *argv[])
     d1->performQuack();
     d1->performFly();
 
+    Duck *d5 = new ModelDuck();
+    d5 ->display();
+    d5 ->performQuack();
+    d5 ->performFly();
     return a.exec();
 }
